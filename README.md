@@ -1,4 +1,4 @@
-# Roadster — McGregor Demo
+# Roadster
 
 A browser driving simulator of the next-generation Tesla Roadster, recreating the
 demos from its unveiling on **October 15, 2026** at SpaceX's rocket development

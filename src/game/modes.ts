@@ -60,7 +60,7 @@ export const MODES: ModeInfo[] = [
     id: 'free',
     title: 'Free Drive',
     kicker: 'Open site',
-    description: 'The whole McGregor demo site at night: the arch, the lineup, the strip and the stage. Refill N₂ on the blue pads.',
+    description: 'The whole demo site at night: the arch, the lineup, the strip and the stage. Refill N₂ on the blue pads.',
     eventNote: 'The event ran at SpaceX’s rocket development facility in McGregor, Texas, with the crowd kept several hundred yards back.',
     hint: 'Blue rings refill the N₂ tanks · F cycles fan modes · T toggles Track Mode',
   },
@@ -178,7 +178,7 @@ export class ArchMode extends GameMode {
           success: ok,
           title: ok ? 'Stuck the landing' : !upright ? 'Landed on the roof' : 'Not quite the event run',
           subtitle: ok
-            ? 'Upside down on the fans, dropped, flipped and landed — just like McGregor.'
+            ? 'Upside down on the fans, dropped, flipped and landed — just like the unveiling.'
             : this.hold < 2
               ? 'You need to stop and hang upside down for 2 seconds before the drop.'
               : 'Use the flight system (G toggles assist) to roll upright before touchdown.',

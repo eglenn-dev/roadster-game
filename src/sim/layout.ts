@@ -1,7 +1,7 @@
 import { Vector3 } from 'three';
 import { PhysWorld, type ArchRamp } from './world';
 
-// World layout of the McGregor demo site. Shared by the physics world and the
+// World layout of the demo site. Shared by the physics world and the
 // renderer so that what you see is exactly what you collide with.
 // Headings follow Vehicle.reset(): 0 faces -Z, -π/2 faces +X.
 
